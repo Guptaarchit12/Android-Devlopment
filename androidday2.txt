@@ -21,7 +21,7 @@ fun main() {
 *
 3.)
 fun main() {
-    val name = "\t Dhanush \n Dhanush \t Dhanush \n\t Dhanush"
+    val name = "\t Archit \n Archit \t Archit \n\t Archit"
     print(name)
 }
 
@@ -31,7 +31,7 @@ fun main() {
 fun main() {
     val numbers = arrayOf(1, 2, 3, 4, 5)
     println(numbers[0])
-    val words: Array<String> = arrayOf("kotlin", "Dhanush", "Srinivas")
+    val words: Array<String> = arrayOf("kotlin", "Archit", "Gupta")
     println(words[2])
     
 }
