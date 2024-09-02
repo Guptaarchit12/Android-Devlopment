@@ -1,0 +1,10 @@
+fun main() {
+	for(item in 5 downTo 1){
+        println(item)
+    }
+    println()
+    // downTo helps omit 1 number alternatively
+    for(i in 5 downTo 1 step 2){
+        println(i)
+    }
+}

@@ -1,0 +1,16 @@
+fun temp(c:Double):Double{
+    val f = (9/5)*(c+32.0)
+    return f
+}
+fun temp2(f:Double):Double{
+    val c = (5/9)*(f-32.0)
+    return c
+}
+fun main(){
+    val c:Double = 45.0
+    val f:Double = 78.0
+    val Farenheit = temp(c)
+    val Celcius = temp(f)
+    println("The Tempertaur In Degree Farenheit Is:$Farenheit")
+    println("The Temperature In Degree Celcius Is:$Celcius")
+}

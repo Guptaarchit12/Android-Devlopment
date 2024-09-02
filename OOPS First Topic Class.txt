@@ -1,0 +1,8 @@
+class Student{
+    fun result(){
+        println("Pending")
+    }
+}
+fun main(){
+    Student()
+}
